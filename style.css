@@ -69,7 +69,7 @@ nav ul li a:hover {
 .about-section {
     width: 80%;
     margin: 40px auto;
-    background: white;
+    background: linear-gradient(to right, #505bea, #0096fb);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
