@@ -4,79 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sankalp Kitey - Profile</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-        }
-
-        /* Header */
-        header {
-            background: #333;
-            color: #fff;
-            padding: 15px 0;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        /* Main Content */
-        .container {
-            padding: 40px;
-            text-align: center;
-            background: white;
-            margin: 30px auto;
-            width: 80%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        /* Footer */
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 15px 0;
-            margin-top: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
-        <h1>Welcome you all !!!</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#">Other</a>
+            <h2 class="logo">Sankalp Kitey</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <div class="container" id="about">
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Profile</h1>
+        <p>Linux | Cloud | DevOps | Automation</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
         <h2>About Me</h2>
         <p>
-            Hi, I am <strong>Sankalp Kitey</strong>.  
-          My name is Sankalp Kitey, and I am a technology enthusiast specializing in Linux, cloud computing, and DevOps practices.
-I enjoy setting up systems, troubleshooting complex issues, and building solutions that make infrastructure more reliable and efficient.
-I’m always exploring new tools, improving my skills, and working toward becoming a highly skilled cloud/DevOps engineer.
+            My name is <strong>Sankalp Kitey</strong>, and I am a technology enthusiast specializing in 
+            Linux, cloud computing, and DevOps practices.  
         </p>
-    </div>
+
+        <p>
+            I enjoy setting up systems, troubleshooting complex issues, and building solutions 
+            that make infrastructure more reliable and efficient.
+        </p>
+
+        <p>
+            I’m always exploring new tools, improving my skills, and working toward becoming a 
+            highly skilled cloud/DevOps engineer.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>You can reach me via email or any social links you want to add here.</p>
+    </section>
 
     <!-- Footer -->
     <footer>
-        <p>Thank you for visiting!</p>
+        <p>Thank you for visiting! &copy; 2025 Sankalp Kitey</p>
     </footer>
 
 </body>
