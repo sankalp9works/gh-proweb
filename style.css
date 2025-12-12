@@ -47,7 +47,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 300px;
-    background: linear-gradient(to right, #505bea, #00c6fb);
+    background: linear-gradient(to right, #505bea, #0096fb);
     color: white;
     display: flex;
     flex-direction: column;
